@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <display-name>uploadFile</display-name>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>uploadFile</servlet-name>
+        <servlet-class>com.jom.upload.uploadFichero</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>uploadFile</servlet-name>
+        <url-pattern>/uploadFichero</url-pattern>
+    </servlet-mapping>
+    <context-param>
+        <param-name>file-upload</param-name>
+        <param-value>
+         C:\jboss-6.1.0.Final\server\default\deploy\webmed.war\adjuntos\
+         <!--C:\destino\-->
+     </param-value>
+    </context-param>
+</web-app>
