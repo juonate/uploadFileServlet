@@ -15,8 +15,8 @@
     <context-param>
         <param-name>file-upload</param-name>
         <param-value>
-         C:\jboss-6.1.0.Final\server\default\deploy\webmed.war\adjuntos\
-         <!--C:\destino\-->
+         <!--C:\jboss-6.1.0.Final\server\default\deploy\webmed.war\adjuntos\-->
+         C:\destino\
      </param-value>
     </context-param>
 </web-app>

@@ -37,7 +37,7 @@ public class uploadFichero extends HttpServlet {
        Parent = request.getParameter("Parent");
        idParent = request.getParameter("idParent");
        
-       System.out.println(Parent + " " + "idParent" + " " +idParent);
+       System.out.println("Parent:"+Parent + " " + "idParent:" + " " +idParent);
        
        
        // Check that we have a file upload request
